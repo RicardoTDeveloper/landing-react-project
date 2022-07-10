@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const Deezer = async () => {
+export const Infos = async () => {
    return await axios.get("https://deezerdevs-deezer.p.rapidapi.com/infos", {
       headers: {
          "X-RapidAPI-Key": import.meta.env.VITE_RAPIDAPI_KEY,

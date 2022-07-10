@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 
-import { Deezer } from "../services/deezer";
+import { Infos } from "../services";
 
 export const About = (props) => {
    useEffect(() => {
       async function fetchData() {
-         const response = await Deezer();
+         const response = await Infos();
          console.log("response :>> ", response.data);
       }
       fetchData();
