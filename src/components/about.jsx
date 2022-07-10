@@ -1,15 +1,11 @@
 import React, { useEffect } from "react";
-
-import { Infos } from "../services";
+import useInfos from "hooks/useInfos";
 
 export const About = (props) => {
-   useEffect(() => {
-      async function fetchData() {
-         const response = await Infos();
-         console.log("response :>> ", response.data);
-      }
-      fetchData();
-   });
+   const { isLoading, data } = useInfos();
+
+   console.log("isLoading :>> ", isLoading);
+   console.log("data :>> ", data);
 
    return (
       <div id="about">
