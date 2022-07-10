@@ -8,6 +8,7 @@
       "preview": "tsc && vite build && vite preview"
    },
    "dependencies": {
+      "axios": "^0.27.2",
       "emailjs-com": "2.6.4",
       "react": "^18.0.0",
       "react-dom": "^18.0.0",
