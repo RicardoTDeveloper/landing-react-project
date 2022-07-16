@@ -8,10 +8,11 @@
    },
    "scripts": {
       "dev": "vite",
-      "build": "tsc && vite build && semantic-release",
+      "build": "tsc && vite build",
       "test": "",
       "preview": "tsc && vite build && vite preview",
       "prepare": "husky install",
+      "release": "semantic-release",
       "commit": "git add . && cz && git push"
    },
    "dependencies": {
