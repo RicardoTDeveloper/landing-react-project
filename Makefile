@@ -1,4 +1,4 @@
+# /Makefile
 include .env
-
 release: 
-	GITHUB_TOKEN=${GITHUB_TOKEN} yarn release
+	GH_TOKEN=${GH_TOKEN} yarn release
