@@ -23,5 +23,5 @@
          }
       ]
    ],
-   "branches": ["main", "next"]
+   "branches": ["prod"]
 }
