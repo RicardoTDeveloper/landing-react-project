@@ -12,7 +12,7 @@
       "test": "",
       "preview": "tsc && vite build && vite preview",
       "prepare": "husky install",
-      "release": "semantic-release --no-ci"
+      "release": "GITHUB_TOKEN=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 semantic-release --no-ci"
    },
    "dependencies": {
       "axios": "^0.27.2",
@@ -29,6 +29,7 @@
       "@commitlint/config-conventional": "^17.0.3",
       "@semantic-release/changelog": "^6.0.1",
       "@semantic-release/git": "^10.0.1",
+      "@semantic-release/github": "^8.0.5",
       "@types/node": "^18.0.3",
       "@types/react": "^18.0.0",
       "@types/react-dom": "^18.0.0",
