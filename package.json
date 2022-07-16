@@ -5,7 +5,7 @@
    "scripts": {
       "dev": "vite",
       "build": "tsc && vite build",
-      "test": "jest",
+      "test": "",
       "preview": "tsc && vite build && vite preview",
       "prepare": "husky install"
    },
