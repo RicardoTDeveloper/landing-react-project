@@ -12,7 +12,7 @@
       "test": "",
       "preview": "tsc && vite build && vite preview",
       "prepare": "husky install",
-      "release": "semantic-release --branches prod"
+      "release": "semantic-release --branches main"
    },
    "dependencies": {
       "axios": "^0.27.2",
