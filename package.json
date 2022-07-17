@@ -12,8 +12,7 @@
       "test": "",
       "preview": "tsc && vite build && vite preview",
       "prepare": "husky install",
-      "release": "semantic-release",
-      "commit": "git add . && cz && git push"
+      "release": "semantic-release"
    },
    "dependencies": {
       "axios": "^0.27.2",
