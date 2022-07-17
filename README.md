@@ -237,18 +237,18 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/RicardoTDeveloper/landing-react-project.svg?style=for-the-badge
+[contributors-url]: https://github.com/RicardoTDeveloper/landing-react-project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/RicardoTDeveloper/landing-react-project.svg?style=for-the-badge
+[forks-url]: https://github.com/RicardoTDeveloper/landing-react-project/network/members
+[stars-shield]: https://img.shields.io/github/stars/RicardoTDeveloper/landing-react-project.svg?style=for-the-badge
+[stars-url]: https://github.com/RicardoTDeveloper/landing-react-project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/RicardoTDeveloper/landing-react-project.svg?style=for-the-badge
+[issues-url]: https://github.com/RicardoTDeveloper/landing-react-project/issues
+[license-shield]: https://img.shields.io/github/license/RicardoTDeveloper/landing-react-project.svg?style=for-the-badge
+[license-url]: https://github.com/RicardoTDeveloper/landing-react-project/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/ricardo-teixeira-developer/
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/styledComponents-105414?style=for-the-badge&logo=styledcomponents&logoColor=white
 [Next-url]: https://styled-components.com
