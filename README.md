@@ -36,43 +36,36 @@
   <h3 align="center">Deezer Projeto React</h3>
 
   <p align="center">
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://landing-react-project.vercel.app">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/RicardoTDeveloper/landing-react-project/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/RicardoTDeveloper/landing-react-project/issues">Request Feature</a>
   </p>
 </div>
 
-
+<br />
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Conteúdo</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#sobre-o-projeto">Sobre o projeto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#tecnologias-utilizadas">Tecnologias utilizadas</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#começando">Começando</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#pré-requisitos">Pré requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#contribuições">Contribuições</a></li>
+    <li><a href="#contato">Contato</a></li>
   </ol>
 </details>
 
@@ -81,20 +74,13 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Projeto focado para construir um site dinâmico aperfeiçoando e aprofundando o conhecimento em todas as tecnologias listadas na seção abaixo. 
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Tema do site: **Deezer**.
+Consumindo uma API do **RapidAPI** para auxiliar   
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">voltar ao início</a>)</p>
 
 
 
@@ -110,127 +96,85 @@ Esta seção lista todos os principais frameworks/bibliotecas usados ​​para 
 * [![Vue][Vue.js]][Vue-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">voltar ao início</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Começando
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Para colocar uma cópia local em execução, siga estas etapas de exemplo simples.
 
-### Prerequisites
+### Pré Requisitos
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Esta é as versões que vão funcionar perfeitamente para conseguir instalar as dependencias sem haver problemas na instalação.
 
-### Installation
+[![Npm][Npm]][Npm-url]
+[![Npm][Node]][Npm-url]
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+### Instalação
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+_Abaixo está um exemplo de como você pode instruir seu público sobre como instalar e configurar seu aplicativo. Este modelo não depende de nenhuma dependência ou serviço externo._
+
+1. Obtenha uma chave de API gratuita em [https://rapidapi.com/](https://rapidapi.com/)
+2. Clone o repositório
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/RicardoTDeveloper/landing-react-project
    ```
-3. Install NPM packages
+3. Instale os pacotes NPM
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Insira sua APIKEY em `.env.example`
+   ``` js
+   VITE_RAPIDAPI_KEY = 'INSIRA SUA APIKEY';
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+<p align="right">(<a href="#top">voltar ao início</a>)</p>
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Adicionado Template
+- [x] Criando um boilerplate para criação de outros projetos open-source.
+- [x] Adicionando integração da API do RapidAPI e chave de acesso.
+- [x] Atualizando README.md
+- [ ] Refatorar o projeto adicionando typescript.
+- [ ] Adicionando testes únitários a todos os componentes.
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+Consulte os [problemas em aberto](https://github.com/RicardoTDeveloper/landing-react-project/issues) para obter uma lista completa dos recursos propostos (e problemas conhecidos).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">voltar ao início</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contribuições
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+As contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer são **muito apreciadas**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Se você tiver uma sugestão para melhorar isso, faça um fork do repositório e crie uma solicitação pull. Você também pode simplesmente abrir um problema com a tag "melhoria".
+Não se esqueça de dar uma estrela ao projeto! Obrigado novamente!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork o projeto
+2. Crie sua ramificação de recurso (`git checkout -b feature/landing-react-project`)
+3. Confirme suas alterações (`git commit -m 'Add some landing-react-project'`)
+4. Envie para a ramificação (`recurso de origem do git push/landing-react-project`)
+5. Abra uma solicitação pull
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">voltar ao início</a>)</p>
 
 
 
 <!-- CONTACT -->
-## Contact
+## Contato
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Ricardo Teixeira - [LinkedIn](https://www.linkedin.com/in/ricardo-teixeira-developer/) - ricardodeveloper@outlook.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Link do projeto: [https://github.com/RicardoTDeveloper/landing-react-project](https://github.com/RicardoTDeveloper/landing-react-project)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">voltar ao início</a>)</p>
 
 
 
@@ -263,3 +207,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [Laravel-url]: https://laravel.com
 [Bootstrap.com]: https://img.shields.io/badge/chakraui-563D7C?style=for-the-badge&logo=chakraui&logoColor=white
 [Bootstrap-url]: https://chakra-ui.com
+[Npm]: https://img.shields.io/badge/Npm%20-8.11.0-blue
+[Npm-url]: https://nodejs.org/en/
+
+[Node]: https://img.shields.io/badge/Node%20-16.15.1-green
+[Node-url]: https://nodejs.org/en/
